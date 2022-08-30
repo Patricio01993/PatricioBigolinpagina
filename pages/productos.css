@@ -14,3 +14,33 @@
     text-transform: capitalize;
     text-shadow: 0 0 5px #333;
 }
+.btn-primary{
+    background-color: rgba(0, 0, 255, 0.644);
+}
+.btn-primary:hover{
+    background-color: rgba(34, 86, 184, 0.651);
+}
+h2{
+    background-color: rgba(50, 50, 116, 0.541);
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffff;
+    padding: 10px;
+    margin: 0;
+}
+.ar p::selection{
+    color: aqua;
+    background-color: rgba(0, 0, 255, 0.644);
+}
+.productos{
+    height: auto;
+    color: aquamarine;
+}
+footer{
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    text-align: center;
+    color:#000;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px;
+}
