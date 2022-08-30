@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+.bgnav{
+    background-color: rgba(0, 0, 255, 0.644);
+}
+.navbar-brand{
+    text-shadow: 0 0 5px #333;
+    font-weight: bold;
+}
+.navbar-brand::before{
+    content: "🧿";
+}
+.nav-link{
+    color:rgba(16, 244, 244) !important;
+    text-transform: capitalize;
+    text-shadow: 0 0 5px #333;
+}
